@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+main {
+  padding: 2% 2%;
+}
+
+.article-body {
+  line-height: 150%;
+}
+.site-header {
+  background-color: #ffeaaa;
+}

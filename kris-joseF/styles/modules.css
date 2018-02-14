@@ -1,0 +1,58 @@
+.heading-group-h1 {
+  position: relative;  
+}
+
+.icon-menu {
+  visibility: visible;
+  float: right;
+  position: absolute;
+  font-size: 300%;
+  top: 2%;
+  right: 0;
+}
+ul li {
+  display: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.icon-menu:hover + ul li {
+  visibility: visible;
+  display: block;
+  border-bottom: 1px solid #777777;
+  font-size: 150%;
+  padding: 3% 3% 3% 0;
+
+}
+
+.byline > address {
+  display: inline;
+}
+
+address {
+  font-weight: bold;
+}
+
+.pull-right {
+  float: right;
+}
+
+.template {
+  display: none;
+}
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    visibility: hidden;
+  }
+  .main-nav ul {
+    display: inline;
+  }
+  ul li{
+    display: inline-block;
+    font-size: 150%;
+    margin-right: 1.25%;
+  }
+
+  
+}
